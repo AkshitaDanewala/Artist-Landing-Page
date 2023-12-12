@@ -8,3 +8,83 @@ html,body{
     height: 100%;
     width: 100%;
 }
+.pg1{
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://media.istockphoto.com/id/498522852/photo/mixing-oil-colors-on-a-paint-pallet.jpg?s=612x612&w=0&k=20&c=iEBhbnQjk7f6mGZgoBHhzk2v4QEn5nueCiFC6tes7Rk=");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+nav{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vmax;
+}
+
+.logo{
+    height: 9vh;
+    width: 6vw;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/006/692/835/original/paint-brush-icon-symbol-flat-illustration-for-graphic-and-web-design-free-vector.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    mix-blend-mode: multiply;
+
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    font-size: 1.5vmax;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    font-weight: bold;
+    color: white;
+    margin: 0 1vmax;
+}
+
+.btn1{
+    padding: 0.8vmax 2vmax;
+    border-radius: 1vmax;
+    border: none;
+    font-weight: bold;
+    font-size: 1.3vmax;
+    margin-top: 1vmax;
+    background-color: black;
+    color: white;
+}
+
+.overlay{
+    height: 90vh;
+    width: 100%;
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vmax;
+    }
+
+    #box1{
+        height: 70vh;
+        width: 23vw;
+        border: 4px solid black;
+    background-image: url("https://images.unsplash.com/photo-1579965342575-16428a7c8881?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=462&q=80");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all ease 2s;
+
+    }
+    #box1:hover{
+        cursor: pointer;
+background-image: url("https://www.jiomart.com/images/product/original/rvwpkd53vy/hanish-arts-crafts-scenery-canvas-painting-handmade-painting-18-x-24-unframed-product-images-orvwpkd53vy-p590815153-0-202110082026.jpg?im=Resize=(1000,1000)");
+        transform: scale(1.1);
+    }
